@@ -1,0 +1,6 @@
+import pandas as oPandas
+
+dic = { "Coluna1":[1, "P"],
+"Coluna2":["q", 2]}
+x = oPandas.DataFrame (dic)
+print(x)
